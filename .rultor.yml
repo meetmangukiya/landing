@@ -1,0 +1,6 @@
+merge:
+  fast-forward: only
+  script: echo "Nothing to do."
+
+docker:
+  image: "yegor256/rultor"
