@@ -10,4 +10,3 @@ $ cd landing
 $ python -m SimpleHTTPServer 8000
 ```
 
-It's now running on <http://localhost:8000/>
