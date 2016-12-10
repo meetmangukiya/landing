@@ -79,13 +79,13 @@
 .term-install-card{
   background-color: #2b2b2b;
   color: #fff;
-  font-family: Menlo;
+  font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
 }
 
 .term-install-card-small{
   background-color: #2b2b2b;
   color: #fff;
-  font-family: Menlo;
+  font-family: Monaco, Menlo, "Ubuntu Mono", monospace;
   font-size: 0.8em !important;
 }
 
