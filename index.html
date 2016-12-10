@@ -4,13 +4,18 @@
 
     <title>coala</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/materialize/js/materialize.min.js"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ek+Mukta:200|Libre+Franklin:300|Nunito+Sans:300|Pontano+Sans|Quattrocento+Sans|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendors/materialize/css/materialize.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100" rel="stylesheet">
+   
 
 
 </head>
@@ -20,9 +25,9 @@
         <div class="row">
             <div class="col s12">
                 <ul class="tabs">
-                    <li class="tab col s3"><a href="#test1">Home</a></li>
+                    <li class="tab col s3"><a class="active" href="#test1">Home</a></li>
                     <li class="tab col s3"><a href="#test2">Languages</a></li>
-                    <li class="tab col s3"><a class="active" href="#test3">Get Involved</a></li>
+                    <li class="tab col s3"><a href="#test3">Get Involved</a></li>
                     <li class="tab col s3"><a href="#test4">Try Coala!</a></li>
                 </ul>
             </div>
@@ -236,16 +241,16 @@
 
      <div class="row">
         <div class="col-md-3">
-            <div class="github-card" data-github="octocat" data-width="250" data-height="100" data-theme="default"></div>
+            <div class="github-card"></div>
         </div>
          <div class="col-md-3">
-            <div class="github-card" data-github="octocat" data-width="250" data-height="100" data-theme="default"></div>
+            <div class="github-card"></div>
         </div>
          <div class="col-md-3">
-            <div class="github-card" data-github="octocat" data-width="250" data-height="100" data-theme="default"></div>
+            <div class="github-card"></div>
         </div>
          <div class="col-md-3">
-            <div class="github-card" data-github="octocat" data-width="250" data-height="100" data-theme="default"></div>
+            <div class="github-card"></div>
         </div>
     </div>
     </center>
@@ -266,183 +271,14 @@
 </body>
 </html>
 
-    <style type="text/css">
-        .title{
-            font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-            font-size: 14em;
-            font-weight: 100;
-            text-align: center;
-        }
-
-        .title-get-involved{
-            font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-            font-size: 7em;
-            font-weight: 100;
-            text-align: center;
-        }
-
-        .main-content{
-            margin-top: 2em;
-        }
-
-        .logo{
-            height:15em;
-            margin-top: 4em;
-
-        }
-        .tabs{
-            font-family: Roboto;
-            font-size: 1em;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-        .description{
-            font-family: Roboto;
-            font-size: 1.6em;
-            text-align: center;
-            font-weight: 200;
-        }
-        .term-install-card{
-            background-color: #2b2b2b;
-            color: #fff;
-            font-family: Menlo;
-        }
-
-        .term-install-card-small{
-            background-color: #2b2b2b;
-            color: #fff;
-            font-family: Menlo;
-            font-size: 0.8em !important;
-        }
-
-        .term-install-card-small > .card-stacked > .card-content{
-            padding:10px !important;
-        }
-
-        .tip{
-            font-size: 1.2em;
-        }
-        .tip-small{
-            font-size: 1em;
-        }
-        .terminal-install{
-            margin-top: 1em;
-        }
-        .dev-row{
-            border-top: 1px solid lightgrey;
-            padding-left:0em;
-            padding-right: 0em;
-            margin-bottom: 0px !important;
-            padding-top: 1em;
-            padding-bottom: 1em;
-
-        }
-        .no-border{
-            border-top: 0px !important;
-        }
-
-        .tip-big{
-            font-size: 1.5em;
-            font-weight: 300;
-            text-align: justify;
-            padding:1em;
-
-        }
-        .install-tip{
-            margin-left: 5em;
-            margin-right: 5em;
-            margin-top: 3em;
-        }
-
-        .examples{
-            margin-left: 5em;
-            margin-right: 5em;
-            margin-top: 3em;
-        }
-        span.caret {
-    color: initial;
-    position: absolute;
-    right: 0;
-    top: 16px;
-    font-size: 10px;
-    padding-left: 10px;
-}
-
-.select-wrapper input.select-dropdown {
-    background-color: rgba(40, 53, 147, 0.1);
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid #f2f2f2;
-    border-top-color: rgb(242, 242, 242);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgb(242, 242, 242);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgb(242, 242, 242);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgb(242, 242, 242);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border-radius: 2px !important;
-    height: 3rem !important;
-}
-
-.example-card{
-    padding:2em;
-}
-.example-select{
-    padding:2em;
-}
-
-.footer-text{
-        text-align: center;
-    color: lightslategrey;
-    font-family: Roboto;
-    padding: 1em;
-
-}
-
-.ft-span{
-     text-transform: uppercase;
-    letter-spacing: 0.1em;
-}
-.container-title{
-
-
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-            font-size: 3em;
-            font-weight: 100;
-
-}
- body {
-    display: flex !important;
-    min-height: 100vh !important;
-    flex-direction: column !important;
-  }
-
-  main {
-    flex: 1 0 auto;
-  }
-
-    </style>
-
-    <script type="text/javascript">
-        $(document).ready(function () {
+  
+<script type="text/javascript">
+$(document).ready(function () {
             $('select').material_select();
-             $('ul.tabs').tabs();
-             $('.github-card').html('<img src="http://placehold.it/100x100" />')
-        })
+            $('ul.tabs').tabs();
+            $('.github-card').html('<img src="http://placehold.it/100x100" />')
+})
 
-
-
-    </script>
+</script>
 
 
