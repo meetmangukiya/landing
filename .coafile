@@ -1,4 +1,9 @@
 [Default]
 bears = SpaceConsistencyBear
-files = index.html
+files = **.(md|html|css)
+ignore = vendors/**
 use_spaces = yeah
+
+[markdown]
+bears = MarkdownBear
+files = **.md
