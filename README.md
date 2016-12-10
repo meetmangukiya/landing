@@ -9,4 +9,4 @@ $ git clone https://github.com/coala/landing.git
 $ cd landing
 $ python -m SimpleHTTPServer 8000
 ```
-It's now running on http://localhost:8080/
+It's now running on http://localhost:8000/
