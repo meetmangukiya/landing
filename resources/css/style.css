@@ -190,8 +190,6 @@ span.caret {
  letter-spacing: 0.1em;
 }
 .container-title{
-
-
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   font-size: 3em;
   font-weight: 100;
@@ -220,4 +218,3 @@ footer.page-footer .footer-copyright{
   color:lightslategrey !important;
   background-color:#fff !important
 }
-
