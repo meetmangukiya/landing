@@ -1,0 +1,4 @@
+[Default]
+bears = SpaceConsistencyBear
+files = index.html
+use_spaces = yeah
